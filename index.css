@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(190, 205, 212);
+    text-align: center;
+    color: white;
+}
+
+body.FirstBody{
+    background: url(snow.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+/*#600a03*/
+.header {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 3.8rem;
+  padding: 0;
+}
+
+.header:first-of-type {}
+
+div.container {
+  vertical-align: top;
+}
+
+#clock {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    vertical-align: top;
+    font-family: 'Cormorant SC', cursive;
+    text-align: center;
+    font-size: 3.2rem;
+    display: inline-block;
+}
+
+
+img {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-left: 13%;
+  vertical-align: center;
+}
+.png_pic{
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+}
+
+#snowflakeContainer {
+ position: absolute;
+ left: 0px;
+ top: 0px;
+}
+
+.snowflake {
+ padding-left: 15px;
+ font-family: Cambria, Georgia, serif;
+ font-size: 14px;
+ line-height: 24px;
+ position: fixed;
+ color: red;
+ user-select: none;
+ z-index: 1000;
+}
+
+.FirstPic{
+    width: 100%;
+    height: auto;
+
+}
+
+.snowflake:hover {
+ cursor: default;
+}
+
